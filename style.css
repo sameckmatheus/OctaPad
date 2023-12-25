@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background-color: #242424;
+}
+
+#main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.octapad-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; /* Espaçamento entre os elementos do grid */
+}
+
+.uiverse {
+  background-color: #2ecc71; /* Cor de fundo verde */
+  color: #ffffff;
+  text-align: center;
+  padding: 80px;
+  cursor: pointer;
+  border-radius: 8px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.uiverse:hover {
+  background-color: #27ae60; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+.uiverse span {
+  display: block;
+  font-size: 14px; /* Tamanho da fonte reduzido */
+}
